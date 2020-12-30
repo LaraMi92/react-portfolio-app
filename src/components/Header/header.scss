@@ -1,0 +1,14 @@
+.nav{
+  padding: 1rem;
+  margin: 1rem;
+  &__link{
+    color: #FF1493;
+  }
+}
+
+.nav>*{
+  padding: 1rem;
+  border-bottom: 1px solid #FF1493;
+}
+
+

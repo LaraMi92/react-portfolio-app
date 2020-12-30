@@ -1,0 +1,9 @@
+.footer {
+  padding: 1rem;
+  margin: 1rem;
+  &__email{
+    border-top: 1px solid black;
+    color: #FF1493;
+    padding: .3rem;
+  }
+}

@@ -1,0 +1,16 @@
+.videos {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.videos > * {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}

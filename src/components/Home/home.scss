@@ -1,0 +1,20 @@
+.home {
+  height: 90%;
+}
+ 
+.lieu-retour {
+  width: 600px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  &:hover{
+    opacity: 0;
+  }
+}
+
+.text-retour {
+  font-size: x-small;
+  padding: 1rem;
+  margin: 1rem;
+}
