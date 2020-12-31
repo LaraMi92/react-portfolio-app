@@ -1,19 +1,33 @@
 .home {
   height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: auto;
 }
  
 .lieu-retour {
-  width: 600px;
-  opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  width: 100%;
+}
+
+.texte {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+  line-height: 1.5;
   &:hover{
-    opacity: 0;
+    cursor: crosshair;
+    background: no-repeat center/150% url(https://db3pap004files.storage.live.com/y4msnzVm-3szm85ChF94zQUhjZ7_f4YmckwDvznV0-NheCKMHI70QE9_DghyHD1pAxXQdYHBc59rH5Wzu9lJvMycAzh0q8iaZB0cBKk25GMOci1GhfarecRhAS90JJr7FF4-AQrJpPFtV4HgQUZVfGEywCep3r1QIt4Rql9Kpaw8e-GcJwJmCcL6Kxz9m7REpHX?width=1748&height=1240&cropmode=none);
+    transition: all .55s ease-in-out;
+    color: #fff;
   }
 }
 
-.text-retour {
+.auteur {
+  text-align: right;
   font-size: x-small;
   padding: 1rem;
   margin: 1rem;

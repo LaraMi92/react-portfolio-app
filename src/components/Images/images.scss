@@ -12,6 +12,7 @@
 .images > *:hover{
   transform: scale(1.3);
   transition: all 1s ease-in-out;
+  cursor: crosshair;
 }
 
 .collage {
