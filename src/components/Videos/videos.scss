@@ -6,11 +6,19 @@
   justify-content: center;
 }
 
-.videos > * {
+.player-wrapper {
+  height: 35vh;
   padding: 1rem;
-  margin: 1rem;
+  margin: auto 1em;
 }
 
 .bold {
   font-weight: bold;
+}
+
+@media (max-width: 480px){
+  .videos{
+    width: 90vw;
+  }
+ 
 }

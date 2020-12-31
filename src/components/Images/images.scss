@@ -29,3 +29,18 @@
   width: 450px;
   height: 300px;
 }
+
+@media (max-width: 480px){
+  .collage {
+    width: 150px;
+    height: 225px;
+  }
+  .memoire {
+    width: 300px;
+    height: 200px;
+  }
+  .fin-de-cycle {
+    width: 230px;
+    height: 160px;
+  }
+}
