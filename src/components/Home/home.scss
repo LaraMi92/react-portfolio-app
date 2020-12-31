@@ -33,9 +33,9 @@
   margin: 1rem;
 }
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
   .home{
-    width: 400px;
+    width: 90vw;
   }
 
   .lieu-retour{
@@ -44,8 +44,13 @@
   }
   .texte{
     color: black;
-    &:hover{
-      background: none;
-    }
+   
+  }
+}
+
+@media (hover: none){
+  .texte:hover {
+    color: black;
+    background-image: none;
   }
 }

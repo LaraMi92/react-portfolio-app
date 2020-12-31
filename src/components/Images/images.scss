@@ -30,7 +30,7 @@
   height: 300px;
 }
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
   .collage {
     width: 150px;
     height: 225px;
