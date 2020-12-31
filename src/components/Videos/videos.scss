@@ -16,6 +16,12 @@
   font-weight: bold;
 }
 
+.smaller {
+  font-size: .8em;
+  padding: .6em;
+  line-height: 1.3em;
+}
+
 @media screen and (max-width: 480px){
   .videos{
     width: 90vw;

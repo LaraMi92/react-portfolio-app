@@ -16,7 +16,9 @@ const Videos = () => (
         height="100%"
       />
     </div>
-    <div> <span className="bold">Le lieu du retour</span>, 2016. Vidéo exposée lors de Metasporas, au PointCulture de Bruxelles, 2020. </div>
+    <div> <span className="bold">Le lieu du retour</span>, 2016.
+      <p className="smaller">Vidéo exposée lors de Metasporas, au PointCulture de Bruxelles, 2020.</p>
+    </div>
     <div className="player-wrapper">
       <ReactPlayer
         url="https://youtu.be/3wEWla-6aEc"
@@ -43,7 +45,11 @@ const Videos = () => (
         height="100%"
       />
     </div>
-    <div><span className="bold">Kacper - Au même endroit</span>, 2015. Vidéo réalisée à l'occasion de l'exposition Atelier with a view (musée Art&marges, Bruxelles) en partenariat avec le centre Sésame.  </div>
+    <div><span className="bold">Kacper - Au même endroit</span>, 2015.
+      <p className="smaller">Vidéo réalisée à l'occasion de l'exposition Atelier with a view (musée Art&marges, Bruxelles)
+        en partenariat avec le centre Sésame.
+      </p>
+    </div>
   </div>
 );
 
